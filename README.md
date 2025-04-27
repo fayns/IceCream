@@ -20,10 +20,45 @@ IceCream is a simple and powerful Python library for debugging and logging. It p
 ```python
 from icecream import ic
 
-# Пример переменных
+# Example of variables
 a = 10
 b = 20
 
-# Вывод переменных с помощью IceCream
+# Variable output with IceCream
 ic(a, b)
+```
+
+### Expression output:
+```python
+from icecream import ic
+
+# Example of an expression
+result = a + b
+
+# Expression output with IceCream
+ic(result)
+```
+
+### IceCream Configuration:
+```python
+from icecream import ic
+
+# Setting the level of detail
+ic.configureOutput(includeContext=True)
+
+# Output of variables with settings
+ic(a, b)
+```
+
+### Using IceCream in functions:
+```python 
+from icecream import ic
+
+def add(x, y):
+    result = x + y
+    ic(result)
+    return result
+
+# Function call
+add(5, 7)
 ```
