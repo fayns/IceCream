@@ -1,4 +1,4 @@
-# IceCream
+# IceCream ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 IceCream is a simple and powerful Python library for debugging and logging. It provides tools for quickly and easily inferring variables and expressions during development, making it an ideal tool for debugging code. IceCream allows you to quickly find and fix bugs without the distraction of complex logging mechanisms.
 
 ## IceCream's main features:
